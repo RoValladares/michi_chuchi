@@ -44,6 +44,7 @@ button:hover{
 }
 
 .color-acento{ color:blueviolet;}
+
 header{
   background-color: rgb(245,245,245);
 }
@@ -52,8 +53,9 @@ header .logo{
   margin: 0;
   padding: 25px 30px;
   font-weight: bold;
-  color: blueviolet;
-  font-size: 1.6em;
+  color: rgb(118, 13, 13);
+  font-size: 2em;
+  font-family: "New Rocker", serif;
 }
 
 header .container{
@@ -69,15 +71,15 @@ header .nav{
   padding-bottom: 25px;
 }
 
-header .a{
-  padding: 5px 12px;
-  text-decoration: none;
+header a{
+  padding: 5px;
+  /* text-decoration: none; */
   font-weight: bold;
-  color: balck;
+  color: black;
 }
 
 header a:hover{
-  color: blueviolet;
+  color: rgb(0, 12, 118);
 }
 
 #hero{
