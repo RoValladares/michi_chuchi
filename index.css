@@ -8,6 +8,8 @@ html {
 body{
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  background-color: rgb(164, 164, 164);;
+
 }
 
 h1{font-size: 3.5em;}
@@ -46,7 +48,7 @@ button:hover{
 .color-acento{ color:blueviolet;}
 
 header{
-  background-color: rgb(245,245,245);
+  background-color: rgb(164, 164, 164);;
 }
 
 header .logo{
@@ -56,6 +58,8 @@ header .logo{
   color: rgb(130, 13, 13);
   font-size: 2em;
   font-family: "New Rocker", serif;
+  -webkit-text-stroke: 0.4px rgb(255, 0, 0);
+  
 }
 
 header .container{
@@ -68,14 +72,15 @@ header .nav{
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 25px
 }
 
 header a{
-  padding: 3px;
+  /* padding: 1px; */
   /* text-decoration: none; */
   font-weight: bold;
-  color: rgb(51, 0, 0);
+  color: rgb(109, 0, 0);
+  font-family: "Roboto Slab";
 }
 
 header a:hover{
@@ -101,12 +106,59 @@ header a:hover{
     rgba(0,0,0,0.5)
   )
   ,url(images/cat1.webp);
+  font-family: "UnifrakturCook", serif;
 }
-
+/* 
 #somos-proya .container{
   text-align: center;
   padding: 50px 12px;
+  background-color: aqua;
+  background-image: url("images/dog2.webp");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 50%;
+} */
+
+/* abouy us  */
+#somos-proya .container {
+  display: flex; /* Alinea los elementos en fila */
+  align-items: center; /* Centra verticalmente imagen y texto */
+  /* justify-content: center;  */
+  padding: 50px 12px;
+  background-color: rgb(0, 255, 255);
 }
+
+#somos-proya .img-container img {
+  max-width: 300px; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantén las proporciones */
+  margin-right: 20px; /* Espaciado entre imagen y texto */
+  border-radius: 10px; /* Bordes redondeados opcionales */
+}
+
+#somos-proya .texto-titulo{
+  text-align: center;
+  background-color: rgb(0, 255, 255);
+  padding: 25px;
+  
+}
+
+#somos-proya .texto {
+  flex: 1; /* El texto ocupa el espacio restante */
+  color: #333; /* Color de texto */
+  text-align: left; /* Alineación del texto */
+}
+
+#somos-proya .texto h2 {
+  font-size: 1.8rem; /* Tamaño del encabezado */
+  margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+#somos-proya .texto p {
+  font-size: 1rem; /* Tamaño del texto del párrafo */
+  line-height: 1.5; /* Espaciado entre líneas */
+}
+
 
 #nuestros-programas{
   background-color: rgb(30, 30, 30);
@@ -209,7 +261,7 @@ footer p{
   color: rgb(51, 51, 51);
   font-family: "Roboto Slab", serif;
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 footer .container{
   height: 150px;
